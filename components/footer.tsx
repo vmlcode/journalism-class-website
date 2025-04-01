@@ -44,16 +44,16 @@ export default function Footer() {
           <div className="md:col-span-3">
             <h3 className="font-serif text-lg font-bold mb-4">Contacto</h3>
             <address className="not-italic text-neutral-400 text-sm space-y-2">
-              <p>Av. Ejemplo 1234, Ciudad</p>
-              <p>Teléfono: (123) 456-7890</p>
-              <p>Email: periodismo@cristorey.edu</p>
+              <p>San cristobal Tachira</p>
+              <p>Prof. Laura Castillo</p>
+              <p>periodismo.cristo.rey@gmail.com</p>
             </address>
           </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-neutral-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-neutral-400 text-sm">© {currentYear} Colegio Cristo Rey - Periodismo y Radiodifusión</p>
+            <p className="text-neutral-400 text-sm">© {currentYear} Colegio Cristo Rey - Periodismo y Radiodifusión Digital</p>
             <div className="flex space-x-4 mt-4 md:mt-0">
               <a href="#" className="text-neutral-400 hover:text-white transition-colors text-sm">
                 Términos y Condiciones
