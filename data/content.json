@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "title": "Entrevista con el Profesor Gilbert Guerra",
+    "description": "Estudiantes: Juandiego Ramirez y Camila Zambrano",
+    "url": "https://youtu.be/TL2ALUF6Vpc",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "2",
+    "title": "La mesa Cuadrada la felicidad en el tiempo actual",
+    "description": "Estudiantes: Juan Blondell y Gabriel Valbuena",
+    "url": "https://www.youtube.com/watch?v=n_sWdLnITbs",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "6",
+    "title": "Arte y Arquitectura con Gabriele Marini",
+    "description": "Estudiantes: Victor Maldonado y Sofia Marini",
+    "url": "https://www.youtube.com/watch?v=H6hBMPriq9s",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": false,
+    "createdAt": "2025-03-01"
+  },
+  {
+    "id": "7",
+    "title": "Presentacion en la radio del colegio",
+    "description": "Documentación de la visita a una radio escolar.",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "visitas-radio",
+    "featured": false,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "8",
+    "title": "Podcast Una Voz",
+    "description": "Estudiantes Ana Bracho, Edwin Barrera, Maria Uribe y Yanelsi Rujano",
+    "url": "https://www.youtube.com/watch?v=wa2JiEjDdLU",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-audio",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "9",
+    "title": "Sector primario desde una visión profesional",
+    "description": "Estudiantes Ana Sanchez y Adolfo Buenaño",
+    "url": "https://www.youtube.com/watch?v=okGm0EcNfgE",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+    {
+    "id": "10",
+    "title": "La pasión por la musica",
+    "description": "Estudiante Camilo Zambrano",
+    "url": "https://www.youtube.com/watch?v=IOHkGxawSU0",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+      {
+    "id": "11",
+    "title": "Podcast Mercedes Petaco",
+    "description": "Estudiante Camilo Zambrano",
+    "url": "https://www.youtube.com/watch?v=MH-hYgXTpIk",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "12",
+    "title": "Podcast 512",
+    "description": "Estudiantes Sofia Marini, Victor Maldonado, Ana Sanchez y Juandiego Ramirez",
+    "url": "https://youtu.be/iAO0USEJ0wE",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-audio",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  }
+]
+
