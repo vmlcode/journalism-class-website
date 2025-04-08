@@ -72,7 +72,7 @@
       {
     "id": "11",
     "title": "Podcast Mercedes Petaco",
-    "description": "Estudiante Camilo Zambrano",
+    "description": "Estudiante Rebecca Montoya",
     "url": "https://www.youtube.com/watch?v=MH-hYgXTpIk",
     "thumbnail": "/placeholder.svg?height=400&width=600",
     "category": "podcasts-video",
@@ -88,6 +88,47 @@
     "category": "podcasts-audio",
     "featured": true,
     "createdAt": "2025-04-02"
+  },
+  {
+    "id": "12",
+    "title": "Podcast Prof Marlon Romero",
+    "description": "Estudiantes Roxana Contreras y Jesus Lara",
+    "url": "https://www.youtube.com/watch?v=WTE7PRa59Ys",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "13",
+    "title": "La Criminologia",
+    "description": "Estudiantes Mariana Torres y Victoria Contreras",
+    "url": "https://www.youtube.com/watch?v=oy9SXvSs__w",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "14",
+    "title": "Entrevista Prof Maria Fernanda",
+    "description": "Estudiantes Anabella Armijo y Arianna Marcela ",
+    "url": "https://www.youtube.com/watch?v=Y3k57Wnev1Y",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
+  },
+  {
+    "id": "15",
+    "title": "Descubriendo el mundo de la Moda",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=dOPIPHrwZMM",
+    "thumbnail": "/placeholder.svg?height=400&width=600",
+    "category": "podcasts-video",
+    "featured": true,
+    "createdAt": "2025-04-02"
   }
+
 ]
 
