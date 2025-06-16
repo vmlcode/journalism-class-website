@@ -216,7 +216,7 @@ export default async function Home() {
               <div className="space-y-6">
                 <div className="border-b border-neutral-200 pb-2">
                   <div className="flex items-center justify-between">
-                    <h2 className="font-serif text-2xl font-bold">Visitas a la Radio</h2>
+                    <h2 className="font-serif text-2xl font-bold">Estrategia SEO</h2>
                     <Link href="/estrategia-seo" className="text-primary text-sm font-medium hover:underline">
                       Ver todas
                     </Link>
@@ -229,8 +229,7 @@ export default async function Home() {
                       <div className="relative aspect-video rounded-sm overflow-hidden">
                         <Link href={`/estrategia-seo/${visita.id}`}>
                           <ImageWithFallback
-                            src={`https://img.youtube.com/vi/${extractYouTubeId(visita.url)}/hqdefault.jpg`}
-                            fallbackSrc="/placeholder.svg?height=300&width=400"
+                            src={`${visita.thumbnail}`}
                             alt={visita.title}
                             fill
                             className="object-cover transition-transform hover:scale-105"
@@ -242,7 +241,7 @@ export default async function Home() {
                           </div>
                         </Link>
                         <div className="absolute bottom-2 left-2 bg-primary text-white text-xs font-semibold py-1 px-2 rounded">
-                          <Radio size={14} className="inline mr-1" /> Visita
+                          <Radio size={14} className="inline mr-1" /> SEO
                         </div>
                       </div>
                       <h3 className="font-serif text-lg font-bold line-clamp-2">
