@@ -30,16 +30,6 @@
     "createdAt": "2025-03-01"
   },
   {
-    "id": "7",
-    "title": "Presentacion en la radio del colegio",
-    "description": "Documentación de la visita a una radio escolar.",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "thumbnail": "/placeholder.svg?height=400&width=600",
-    "category": "visitas-radio",
-    "featured": false,
-    "createdAt": "2025-04-02"
-  },
-  {
     "id": "8",
     "title": "Podcast Una Voz",
     "description": "Estudiantes Ana Bracho, Edwin Barrera, Maria Uribe y Yanelsi Rujano",
@@ -128,7 +118,56 @@
     "category": "podcasts-video",
     "featured": true,
     "createdAt": "2025-04-02"
+  },
+  {
+    "id": "seo-1",
+    "title": "Angie PowerFit Aumenta su Popularidad a través de la Estrategia SEO Local",
+    "description": "La estrategia SEO local se plantea con el uso de las redes sociales para aumentar más su popularidad, también reconocer la localidad del gimnasio para que las personas vayan a hacer ejercicio, tener un buen sustento económico para evitar problemas en el futuro. Gracias a estos datos Angie PowerFit logrará obtener mucha popularidad y alumnos para enseñarles cómo se debe hacer ejercicio correctamente y a su vez alimentarse sanamente para poder observar los cambios que dará el ejercicio, por ese motivo se planteará esta estrategia para lograr la meta, no solo por fama, sino por la salud de la gente que esté dispuesta a mejorar su calidad vida con el ejercicio.",
+    "url": "",
+    "thumbnail": "/GYM.png",
+    "category": "estrategia-seo",
+    "featured": false,
+    "createdAt": "2025-06-01"
+  },
+  {
+    "id": "seo-2",
+    "title": "Cuenta Regresiva P25",
+    "description": "La estrategia busca visibilizar la cuenta regresiva de la Promoción 25 del Colegio Cristo Rey a través de SEO optimizado, marketing emocional y contenidos digitales. Se impulsará la noticia en redes sociales con publicaciones diarias de los estudiantes participantes, videos y testimonios, fortaleciendo el vínculo con la comunidad. La difusión incluirá presencia en las redes institucionales, y uso de hashtags clave. El objetivo es crear una conexión emocional que celebre esta etapa y deje huella digital en el recuerdo colectivo de estudiantes, padres y docentes. Todo, bajo una narrativa que resalte la unión, el orgullo institucional y la importancia de este cierre escolar.",
+    "url": "",
+    "thumbnail": "/p25.png",
+    "category": "estrategia-seo",
+    "featured": false,
+    "createdAt": "2025-06-10"
+  },
+  {
+    "id": "seo-3",
+    "title": "Todos podemos volar",
+    "description": "El equipo femenino de voleibol del Colegio Cristo Rey ha destacado en las competencias intercolegiales de 2023, demostrando que la pasión y el esfuerzo pueden superar cualquier límite.  A pesar de las dificultades y bajas sufridas en los últimos dos años, las jugadoras continúan entrenando intensamente para mejorar su rendimiento y aspirar a convertirse en atletas de élite.  El equipo se enfoca en perfeccionar aspectos clave como la velocidad, precisión y lectura del juego.  La nueva capitana, Alexandra Pinto, enfatiza que el voleibol no solo se trata de altura, sino de fuerza, estrategia, pasión y disciplina.  El espíritu de superación del equipo sirve de inspiración para otros jóvenes que enfrentan obstáculos similares.  Una de las jugadoras declaró que, con trabajo duro, todo es posible, sin importar cuántas veces les digan que no pueden lograrlo.  Las integrantes del equipo ven cada partido como una oportunidad para demostrar lo aprendido y seguir creciendo.  La noticia resalta que la grandeza en el deporte depende más de la mentalidad y el espíritu de lucha que de las condiciones físicas.  La experiencia del equipo Cristo Rey motiva a otros a no aceptar límites impuestos por los demás.  El artículo concluye subrayando la importancia de la perseverancia y el trabajo en equipo para alcanzar el éxito deportivo.",
+    "url": "",
+    "thumbnail": "/BBL.jpg",
+    "category": "estrategia-seo",
+    "featured": false,
+    "createdAt": "2025-06-12"
+  },
+    {
+    "id": "seo-4",
+    "title": "Impulso Digital para el Talento Juvenil Tachirense",
+    "description": "La estrategia titulada 'Impulso Digital para el Talento Juvenil Tachirense' busca posicionar y difundir los logros destacados de jóvenes del Colegio Cristo Rey ,uno en el ámbito artístico y otro en el científico, mediante técnicas de SEO y marketing digital multicanal. Se centra en una narrativa común que exalta la creatividad, disciplina e impacto de la juventud tachirense, utilizando palabras clave estratégicas, publicaciones cruzadas en redes sociales, una página web conjunta y campañas de correo electrónico. El objetivo es aumentar la visibilidad de ambas noticias, fortalecer la identidad institucional del colegio como semillero de talento y generar conexión emocional e inspiración en la audiencia local y nacional.",
+    "url": "",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/San_Cristóbal_%28Venezuela%29_2006_003.jpg/330px-San_Cristóbal_%28Venezuela%29_2006_003.jpg",
+    "category": "estrategia-seo",
+    "featured": false,
+    "createdAt": "2025-06-12"
+  },
+    {
+    "id": "seo-6",
+    "title": "Promoción de noticia acerca del ataque aéreo israelí al Hospital Europeo de Gaza",
+    "description": "Para visibilizar la noticia del bombardeo al Hospital Europeo de Gaza, se aplicará una estrategia SEO que aproveche palabras clave de alto impacto y contenido bilingüe, acompañada de una campaña de marketing en redes sociales con imágenes, videos y testimonios que generen empatía, indignación y el deseo de ayudar a los más necesitados. La difusión se reforzará con publicaciones en medios digitales y redes sociales (X, Instagram, Tik tok), y el uso de hashtags específicos que concentren la atención en la gravedad del ataque. Esta estrategia busca no solo informar, sino también movilizar a la audiencia global, apelando a la conciencia humanitaria y al rechazo colectivo de los crímenes contra civiles e infraestructuras importantes en todos los conflictos armados y guerras.",
+    "url": "",
+    "thumbnail": "/WAR.png",
+    "category": "estrategia-seo",
+    "featured": false,
+    "createdAt": "2025-06-12"
   }
-
 ]
 

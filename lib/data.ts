@@ -1,3 +1,7 @@
+import { Content } from "./types"
+import path from "path"
+import fs from "fs/promises"
+
 export async function readData(): Promise<Content[]> {
   try {
     // In a real application, adjust the file path to wherever your data.json is stored
@@ -66,7 +70,7 @@ const mockData: Content[] = [
       "Los estudiantes visitaron las instalaciones de Radio Nacional y participaron en un programa en vivo. Conocieron el funcionamiento interno y entrevistaron a periodistas con décadas de experiencia en el medio.",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     thumbnail: "/placeholder.svg?height=400&width=600",
-    category: "visitas-radio",
+    category: "estrategia-seo",
     featured: true,
     createdAt: "2023-10-05",
   },

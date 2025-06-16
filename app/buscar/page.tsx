@@ -25,7 +25,7 @@ export default async function SearchPage({
         return <Headphones size={16} className="inline mr-1" />
       case "podcasts-video":
         return <Video size={16} className="inline mr-1" />
-      case "visitas-radio":
+      case "estrategia-seo":
         return <Radio size={16} className="inline mr-1" />
       default:
         return null
@@ -38,7 +38,7 @@ export default async function SearchPage({
         return "Podcast de Audio"
       case "podcasts-video":
         return "Podcast de Video"
-      case "visitas-radio":
+      case "estrategia-seo":
         return "Visita a la Radio"
       default:
         return "Contenido"
@@ -66,7 +66,7 @@ export default async function SearchPage({
               <div className="relative">
                 <Link href={`/${item.category}/${item.id}`}>
                   <div className="relative aspect-video">
-                    {item.category.includes("video") || item.category === "visitas-radio" ? (
+                    {item.category.includes("video") || item.category === "estrategia-seo" ? (
                       <Image
                         src={`https://img.youtube.com/vi/${extractYouTubeId(item.url)}/maxresdefault.jpg`}
                         alt={item.title}

@@ -34,7 +34,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/visitas-radio" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                <Link href="/estrategia-seo" className="text-neutral-400 hover:text-white transition-colors text-sm">
                   Visitas a la Radio
                 </Link>
               </li>

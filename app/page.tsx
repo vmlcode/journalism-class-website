@@ -5,17 +5,25 @@ import { Headphones, Video, Radio, Clock } from "lucide-react"
 import Image from "next/image"
 import { ImageWithFallback } from "@/components/ui/image-with-fallback"
 import { formatDate } from "@/lib/utils"
+import { promises as fs } from 'fs';
+import path from 'path';
 
 export default async function Home() {
   const featuredContent = await getFeaturedContent()
   const latestAudio = await getContentByCategory("podcasts-audio", 3)
-  const latestVideo = await getContentByCategory("podcasts-video", 2)
-  const latestVisits = await getContentByCategory("visitas-radio", 1)
+  const latestVideo = await getContentByCategory("podcasts-video", 3)
+  const latestSeo = await getContentByCategory("estrategia-seo", 2)
 
   // Get the most recent featured item for the hero section
   const heroContent = featuredContent[0]
   // Rest of the featured content for the secondary section
   const secondaryFeatured = featuredContent.slice(1, 3)
+
+  // Load Estrategia SEO articles from content.json
+  const filePath = path.join(process.cwd(), "data", "content.json");
+  const fileContents = await fs.readFile(filePath, "utf8");
+  const content = JSON.parse(fileContents);
+  const seoArticles = content.filter((item: any) => item.category === "estrategia-seo");
 
   return (
     <main className="flex min-h-screen flex-col bg-white">
@@ -209,17 +217,17 @@ export default async function Home() {
                 <div className="border-b border-neutral-200 pb-2">
                   <div className="flex items-center justify-between">
                     <h2 className="font-serif text-2xl font-bold">Visitas a la Radio</h2>
-                    <Link href="/visitas-radio" className="text-primary text-sm font-medium hover:underline">
+                    <Link href="/estrategia-seo" className="text-primary text-sm font-medium hover:underline">
                       Ver todas
                     </Link>
                   </div>
                 </div>
 
                 <div className="space-y-4">
-                  {latestVisits.map((visita) => (
+                  {latestSeo.map((visita) => (
                     <div key={visita.id} className="space-y-2">
                       <div className="relative aspect-video rounded-sm overflow-hidden">
-                        <Link href={`/visitas-radio/${visita.id}`}>
+                        <Link href={`/estrategia-seo/${visita.id}`}>
                           <ImageWithFallback
                             src={`https://img.youtube.com/vi/${extractYouTubeId(visita.url)}/hqdefault.jpg`}
                             fallbackSrc="/placeholder.svg?height=300&width=400"
@@ -238,7 +246,7 @@ export default async function Home() {
                         </div>
                       </div>
                       <h3 className="font-serif text-lg font-bold line-clamp-2">
-                        <Link href={`/visitas-radio/${visita.id}`} className="hover:underline">
+                        <Link href={`/estrategia-seo/${visita.id}`} className="hover:underline">
                           {visita.title}
                         </Link>
                       </h3>
@@ -276,18 +284,46 @@ export default async function Home() {
                   </Link>
 
                   <Link
-                    href="/visitas-radio"
+                    href="/estrategia-seo"
                     className="flex items-center justify-between p-3 hover:bg-neutral-100 rounded-sm transition-colors"
                   >
                     <div className="flex items-center">
                       <Radio className="h-5 w-5 text-primary mr-3" />
-                      <span className="font-medium">Visitas a la Radio</span>
+                      <span className="font-medium">Estrategia SEO</span>
                     </div>
                     <span className="text-neutral-500">→</span>
                   </Link>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Estrategia SEO Section */}
+      <section className="py-8 bg-neutral-50 border-b border-neutral-200">
+        <div className="container mx-auto px-4">
+          <h2 className="font-serif text-2xl font-bold mb-6">Estrategia SEO</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {seoArticles.map((article: any) => (
+              <div key={article.id} className="bg-white rounded-lg shadow p-4 flex flex-col items-center">
+                <img
+                  src={article.thumbnail}
+                  alt={article.title}
+                  width={400}
+                  height={250}
+                  className="rounded mb-4 object-cover"
+                />
+                <h3 className="text-lg font-semibold mb-2">{article.title}</h3>
+                <p className="text-gray-700 mb-2">{article.description}</p>
+                <span className="text-neutral-500 text-xs">{formatDate(article.createdAt)}</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 text-center">
+            <Link href="/estrategia-seo" className="text-primary text-sm font-medium hover:underline">
+              Ver todos los artículos de Estrategia SEO
+            </Link>
           </div>
         </div>
       </section>
@@ -302,8 +338,8 @@ function getCategoryLabel(category: string) {
       return "Podcast de Audio"
     case "podcasts-video":
       return "Podcast de Video"
-    case "visitas-radio":
-      return "Visita a la Radio"
+    case "estrategia-seo":
+      return "Estrategia SEO"
     default:
       return "Contenido"
   }

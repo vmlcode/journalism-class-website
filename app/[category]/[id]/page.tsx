@@ -19,7 +19,7 @@ export default async function ContentDetailPage({
 
   // Determine if this is audio or video content
   const isAudio = content.category === "podcasts-audio"
-  const isVideo = content.category === "podcasts-video" || content.category === "visitas-radio"
+  const isVideo = content.category === "podcasts-video" || content.category === "estrategia-seo"
 
   // Get category name for display
   const getCategoryName = (category: string) => {

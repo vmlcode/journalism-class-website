@@ -52,7 +52,7 @@ export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChan
         return <Headphones size={16} className="text-primary" />
       case "podcasts-video":
         return <Video size={16} className="text-primary" />
-      case "visitas-radio":
+      case "estrategia-seo":
         return <Radio size={16} className="text-primary" />
       default:
         return null
@@ -65,7 +65,7 @@ export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChan
         return "Podcast de Audio"
       case "podcasts-video":
         return "Podcast de Video"
-      case "visitas-radio":
+      case "estrategia-seo":
         return "Visita a la Radio"
       default:
         return "Contenido"
@@ -113,7 +113,7 @@ export function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChan
                   className="flex items-start gap-3 p-3 hover:bg-neutral-50 transition-colors"
                 >
                   <div className="relative h-16 w-24 flex-shrink-0 rounded-sm overflow-hidden">
-                    {result.category.includes("video") || result.category === "visitas-radio" ? (
+                    {result.category.includes("video") || result.category === "estrategia-seo" ? (
                       <Image
                         src={`https://img.youtube.com/vi/${extractYouTubeId(result.url)}/hqdefault.jpg`}
                         alt={result.title}

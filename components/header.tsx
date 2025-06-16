@@ -90,11 +90,11 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/visitas-radio"
+                  href="/estrategia-seo"
                   className="inline-block py-2 text-sm font-medium text-neutral-800 hover:text-primary"
                 >
                   <Radio className="inline-block h-4 w-4 mr-1" />
-                  Visitas a la Radio
+                  Estrategia SEO
                 </Link>
               </li>
             </ul>
@@ -143,12 +143,12 @@ export default function Header() {
                 Podcasts de Video
               </Link>
               <Link
-                href="/visitas-radio"
+                href="/estrategia-seo"
                 className="text-neutral-800 hover:text-primary transition-colors px-2 py-1"
                 onClick={closeMenu}
               >
                 <Radio className="inline-block h-4 w-4 mr-2" />
-                Visitas a la Radio
+                Estrategia SEO
               </Link>
             </nav>
           </div>
