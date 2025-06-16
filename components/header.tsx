@@ -97,6 +97,14 @@ export default function Header() {
                   Estrategia SEO
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/repositorio-pdf"
+                  className="inline-block py-2 text-sm font-medium text-neutral-800 hover:text-primary"
+                >
+                  📄 Noticias
+                </Link>
+              </li>
             </ul>
           </nav>
         )}
@@ -149,6 +157,13 @@ export default function Header() {
               >
                 <Radio className="inline-block h-4 w-4 mr-2" />
                 Estrategia SEO
+              </Link>
+              <Link
+                href="/repositorio-pdf"
+                className="text-neutral-800 hover:text-primary transition-colors px-2 py-1"
+                onClick={closeMenu}
+              >
+                📄 Noticias
               </Link>
             </nav>
           </div>

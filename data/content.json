@@ -168,6 +168,56 @@
     "category": "estrategia-seo",
     "featured": false,
     "createdAt": "2025-06-12"
+  },
+  {
+    "id": "pdf-1",
+    "title": "La cuenta regresiva avanza: Promoción 25 del Cristo Rey se acerca a su gran día",
+    "description": "Autor: Camila Zambrano | Academico ",
+    "url": "/pdfs/CMZ.pdf",
+    "thumbnail": "/placeholder-logo.png",
+    "category": "repositorio-pdf",
+    "featured": false,
+    "createdAt": "2025-06-10"
+  },
+  {
+    "id": "pdf-2",
+    "title": "Todos podemos volar: Cuando la pasion y el esfuerzo superan cualquier limite",
+    "description": "Autor: Yanelsi Rujano | Edicion Especial Deportes",
+    "url": "/pdfs/YR.pdf",
+    "thumbnail": "/placeholder-logo.png",
+    "category": "repositorio-pdf",
+    "featured": false,
+    "createdAt": "2025-06-12"
+  },
+  {
+    "id": "pdf-3",
+    "title": "¡DESLUMBRARON! TACHIRENSES OBTUVIERON EL PRIMER LUGAR EN CONCURSO DE FLAMENCO EN MÉRIDA.",
+    "description": "Autor: Sofia Marini | Edicion Especial Hobbys",
+    "url": "/pdfs/SM.pdf",
+    "thumbnail": "/placeholder-logo.png",
+    "category": "repositorio-pdf",
+    "featured": false,
+    "createdAt": "2025-06-13"
+  },
+    {
+    "id": "pdf-4",
+    "title": "DE LA ARENA AL ALGORITMO: LA TRANSFORMACIÓN DE UN JOVEN PROGRAMADOR EN LA PLAYA",
+    "description": "Autor: Victor Maldonado | Edicion Especial Viajes",
+    "url": "/pdfs/VM.pdf",
+    "thumbnail": "/placeholder-logo.png",
+    "category": "repositorio-pdf",
+    "featured": false,
+    "createdAt": "2025-06-13"
+  },
+      {
+    "id": "pdf-5",
+    "title": "Cambia de adentro hacia afuera",
+    "description": "Autor: Jesus Lara | Edicion Especial Deportes",
+    "url": "/pdfs/JL.pdf",
+    "thumbnail": "/placeholder-logo.png",
+    "category": "repositorio-pdf",
+    "featured": false,
+    "createdAt": "2025-06-13"
   }
 ]
 

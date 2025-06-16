@@ -38,6 +38,11 @@ export default function Footer() {
                   Visitas a la Radio
                 </Link>
               </li>
+              <li>
+                <Link href="/repositorio-pdf" className="text-neutral-400 hover:text-white transition-colors text-sm">
+                  Noticias
+                </Link>
+              </li>
             </ul>
           </div>
 
